@@ -1,0 +1,350 @@
+.html {
+    overflow-x: hidden !important;
+}
+
+.body {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    overflow-x: hidden !important;
+}
+.navbar {
+    padding:auto;
+}
+
+.banner {
+    height: 35rem;
+}
+
+.rowleft {
+    margin-top: 0rem;
+    margin-right: 3rem !important;
+    left: 4rem !important;
+}
+
+.text {
+    color: #003CA6 !important;
+}
+.heading1 {
+    font-size: 3rem;
+    color: #003CA6 !important;
+    font-weight: 700;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif ;
+}
+
+.heading2 {
+    font-size: 1.5rem;
+    color: #003CA6 !important;
+    font-weight: 300;
+}
+
+.button {
+    background-color: #003CA6;
+    color: white;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+
+.image-home {
+    height:70%;
+    margin-right: -12%;
+    z-index: -1;
+    /* right: 0; */
+    /* position: absolute; */
+    overflow-x: hidden!important;
+    overflow-y: hidden!important;
+}
+
+.video1 {
+    z-index: 3 !important;
+}
+
+.yt-1 {
+    background-color:#003CA6;
+}
+
+.yt-2 {
+    background-color: #D6E5FF;
+}
+
+.yt-title {
+    color: white;
+    font-weight: 900;
+}
+
+/* .mid-margin {
+    margin: 10rem;
+} */
+
+.couple {
+    background-color:#003CA6;
+    margin-left: 50rem;
+    overflow-x: none !important;
+}
+
+.different {
+    padding-top: 1.5rem;
+}
+
+.see-how {
+    margin: left 50%;
+    background-color: #EE2737;
+    color: white;
+}
+
+.links {
+    color: #003CA6 !important;
+}
+
+/* .background- {
+    background-image: url(/Public/Static/img/Turaco-3.jpg);
+    background-size: auto !important;
+} */
+
+.background-2 {
+    background-color: #FCDA01;
+    margin-right: 0% !important;
+}
+
+.gutter-0{
+    --bs-gutter-x: 0rem !important;
+}
+
+.top {
+    top: 0rem !important;
+}
+
+.parent {
+    position: relative;
+ }
+
+.bg-our {
+    background-color: #Fde3e5 !important;
+    
+}
+
+.banner-our {
+    width: 100% !important;
+}
+
+.shadow-our {
+    box-shadow: #F5848D;
+}
+
+::shadow {
+    color: #003CA6;
+}
+
+.img-overlay {
+    position: relative;
+    max-width: 500px; 
+}
+
+.padding-0{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.patner-background{
+    background-image: url(../img/partner.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.txt-white {
+    color: #fff;
+}
+
+.bg-light-yellow{
+    background-color: #fff8cc;
+}
+
+.text-yellow{
+    color: #ffc400;
+}
+
+.bg-main{
+    background-color: #0b4ca5;
+}
+
+.txt-grey {
+    color: rgb(192, 192, 192);
+}
+
+.txt-blue {
+    color: #0b4ca5;
+}
+
+.txt-light-blue{
+    color: #03a9f4;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.about-img {
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.leadership-img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.pad-top {
+    padding-top: 40px;
+}
+
+.pad-5{
+    padding-top: 5px;
+}
+
+.pad-bottom {
+    padding-bottom: 40px;
+}
+
+.navbar {
+    margin-bottom: 0 !important;
+}
+.border-t{
+    border-top: 2px solid #0b4ca5;
+}
+.leadership-box-shadow{
+   
+    padding: 0px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em #003CA6;
+}
+.logo-img{
+    height: 59px;
+    width: 206px;
+    padding-top: 10px;
+}
+
+.pad-0{
+    padding-top: 0 !important;
+}
+
+.img-box-shadow{
+    background: linear-gradient(rgba(70, 78, 104, 0.0.5), rgba(0,0,0,.5)),
+    url('../img/mission.jpg');
+    
+}
+
+.part-1{
+    background-color: #ffc400;
+}
+
+.quotee-img{
+    height: 200px;
+    min-width: 250px;
+    width: auto;
+    /* clip-path: circle(100% at 50% -50%); */
+    border-radius: 0 40% 40% 0;
+}
+
+.quote-text{
+    height: 200px;
+    min-width: 250px;
+    width: auto;
+    /* background-color: #0b4ca5; */
+    /* clip-path: circle(100% at 52% -52%); */
+}
+
+.quotee-img-2{
+    height: 200px;
+    min-width: 250px;
+    width: auto;
+    border-radius: 40% 0 0 40%;
+}
+
+/* .quotee-img-2{
+    height: 200px;
+    min-width: 250px;
+    width: auto;
+    border-radius: 40% 0 0 40%;
+} */
+
+@media screen and (max-width: 450px){
+    .padd-yellow{
+        padding: 20px;
+    }
+
+    .w-75{
+        width: 100% !important;
+    }
+    .description{
+        padding-top: 20px;
+    }
+
+    .patner-background{
+        background-image: none;
+        background-color: #ffc400;
+    }
+}
+/* Hex: #F5848D Hex: #F9B3B9 */
+
+text {
+    color: #0b4ca5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-15{
+    font-size: 12px;
+}
+
+.text-12{
+    font-size: 15px;
+}
+
+.text-10{
+    font-size: 10px;
+}
+
+.text-justify-end{
+    text-align: start;
+    text-justify: inter-word;
+}
+
+@media screen and (min-width: 1200px){
+    .padd-yellow{
+        padding: 100px;
+    }
+    
+}
