@@ -447,7 +447,6 @@ text {
     }
 }
 
-
 @media screen and (max-width:700px) {
     .site-details {
         background-color: #0b4ca5;
@@ -455,7 +454,6 @@ text {
     .banner {
         padding-bottom: 2rem;
     }
-
     .v1 {
         margin: 100%;
         width: 100%;
