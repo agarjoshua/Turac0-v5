@@ -3,11 +3,11 @@
 }
 
 * {
-    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .body {
-    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     overflow-x: hidden !important;
 }
 
@@ -33,7 +33,7 @@
     font-size: 4rem;
     color: #003CA6 !important;
     font-weight: 700;
-    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .heading2 {
@@ -45,7 +45,7 @@
 .button {
     background-color: #003CA6;
     color: white;
-    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-weight: bold;
 }
 
@@ -140,6 +140,10 @@
 
 .shadow-our {
     box-shadow: #F5848D;
+}
+
+.img {
+	max-width: 100%; height: auto;
 }
 
 .site-info {
@@ -320,16 +324,16 @@
     min-width: 250px;
     width: auto;
     border-radius: 40% 0 0 40%;
-} */
+} 
 
-@media screen and (max-width: 450px) {}
+@media screen and (max-devicewidth: 450px) {}
 
 
 /* Hex: #F5848D Hex: #F9B3B9 */
 
 text {
     color: #0b4ca5;
-    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .video-play-button {
@@ -421,7 +425,7 @@ text {
 
 text {
     color: #0b4ca5;
-    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .text-15 {
@@ -441,13 +445,19 @@ text {
     text-justify: inter-word;
 }
 
+@media screen and (max-width: 1200px) {
+    .padd-yellow {
+        padding: 100px;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .padd-yellow {
         padding: 100px;
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:600px) {
     .site-details {
         background-color: #0b4ca5;
     }
@@ -469,8 +479,4 @@ text {
     }
 }
 
-@media screen and (max-width: 1013px) {
-    .heading1 {
-        font-size: 3rem;
-    }
-}
+
