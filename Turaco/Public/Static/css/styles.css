@@ -477,6 +477,12 @@ text {
     .heading1 {
         font-size: 2rem;
     }
+    .yt-title1 {
+        margin-left: 0rem !important;
+    }
+    .yt-title2 {
+        margin-left: 0rem !important;
+    }
 }
 
 
